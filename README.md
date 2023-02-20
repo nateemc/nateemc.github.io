@@ -33,14 +33,16 @@ The soil moisture, sunlight, temperature, humidity, and air quality will be moni
 
 
 ## Monday 20th February
-###Setting up the sensors
-All the Arduino sensors have arrived (finally). This means that the Arduino can be set up to start collecting the data that will be sonified. There is a sunlight sensor which collects UV, infrared and visible light metrics; a temperature and humidity sensor; and a soil moisture sensor which detects the humidity within the soil itself. All these metrics are vital for healthy plant growth.
+### Setting up the sensors
+All the Arduino sensors have arrived from various places (finally). This means that the Arduino can be set up to start collecting the data that will be sonified. There is a sunlight sensor which collects UV, infrared and visible light metrics; a temperature and humidity sensor; and a soil moisture sensor which detects the humidity within the soil itself. All these metrics are vital for healthy plant growth.
 
 The sensors are now connected to the Arduino, which is sending the sensor information to the serial monitor via CoolTerm software. This enables the serial monitor information to be copied and stored elsewhere (currently it is not possible to copy vast amounts of data straight from the Arduino serial monitor for some reason...)
 
 Here is the Arduino set up:
+
 ![IMG_5513](https://user-images.githubusercontent.com/123555981/220167690-68775633-dba6-4d57-9ab1-02f2f803b177.jpg)
 
 And here is the data being written to CoolTerm:
+
 ![datacollection](https://user-images.githubusercontent.com/123555981/220167893-5e40cde5-8a57-4997-84ce-07b6bb826990.jpg)
 
