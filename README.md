@@ -46,3 +46,13 @@ And here is the data being written to CoolTerm:
 
 ![datacollection](https://user-images.githubusercontent.com/123555981/220167893-5e40cde5-8a57-4997-84ce-07b6bb826990.jpg)
 
+## Tuesday 28th February
+### Finishing the basic UI and interactive functions
+
+The basic user interface for the project is complete. This will form the basis for the rest of the project and can be expanded from here. When the user moves into the shape on the canvas, they will be able to access the parameters of the RNBO synth. In this basic UI the RNBO JavaScript code has been successfully integrated into the p5 sketch. This means that the basic sinewave generator is able to be played using the A-Z keys on the keyboard, and the ADSR values change when accessing the shape. 
+
+Here is a screen shot of the suqsequent UI and code:
+
+<img width="2407" alt="Screenshot 2023-02-28 at 09 37 23" src="https://user-images.githubusercontent.com/123555981/221814438-23cc7dc6-9e8e-4b12-92aa-6eaba94416a2.png">
+
+
