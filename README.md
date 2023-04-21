@@ -56,3 +56,17 @@ Here is a screen shot of the suqsequent UI and code:
 <img width="2407" alt="Screenshot 2023-02-28 at 09 37 23" src="https://user-images.githubusercontent.com/123555981/221814438-23cc7dc6-9e8e-4b12-92aa-6eaba94416a2.png">
 
 
+## Friday 21st April
+### RNBO patching and data collection
+The past few weeks have been dedicated to collecting the data for the sonifications and creating the Max and RNBO patches into which the data will flow through. For the former, this has means continuing with the Arduino set up to collect as much data as possible, to ensure a range of different environmental factors are collected - this will in turn create a wider range of sound possibilities in the final application.
+
+In RNBO, a synth has been built which will sonifiy these data types. The actual data is sent in through Max using a 'coll' object, which is then unpacked into sepearate lists relating to the variable type e.g UV Light, Nitrogen Dioxide poulltion levels, Rainfall (mm) etc. Each day's worth of data has around 80 rows, or timestamps, of data. These variables are then scaled to fit into the parameters of the RNBO synth. Following references and texts in relation to sonification, such as the Sonification Handbook, mappings have been decided upon which best reflect the variable and data type. For example, the light data has been mapped to such parameters as time and brightness of timbre.
+
+The patch has been constantly tested within the browser to ensure that audio is smooth and all mappings and audio work correctly.
+
+Here is a screenshot of the completed Max and RNBO patch:
+
+<img width="2560" alt="Screenshot 2023-04-21 at 09 07 40" src="https://user-images.githubusercontent.com/123555981/233582489-a101e553-e9bf-47bc-9096-71b0bf6b09fe.png">
+
+The next stage will be to integrated this completed patch into the JavaScript application and UI previous created. The final idea for the UI has changed somewhat since the last blog post. The idea now is to create a "sound map", in which the user will be able to move around the canvas and constantly hear the changes in the data depending on the location of the crosshair. To achieve this, multiple "snapshots" (or presets) will be created in the RNBO patch. These snapshots will be recalled as presets in the JavaScript code and will be linked to an area within the sound map (or JS canvas/screen). 
+
