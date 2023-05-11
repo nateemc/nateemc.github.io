@@ -2,7 +2,7 @@
 
 ## About
 
-This blog details the milestones in regards to the project "Interactive solutions to data sonification challenges". In this project a data set will be collected using an Arduino and relevant sensors to collect information about a plant's environment. This data will be fed into an RNBO patch to sonfiy it's features and characteristics. This RNBO patch will be exported to JavaScript and a new user interface will be built using the p5.js library. Tensorflow will be used later in the project to forecast new datasets which will be fed back into the web-based application.
+This blog details the milestones in regards to the project "Interactive solutions to data sonification challenges". In this project a data set will be collected using an Arduino and relevant sensors to collect information about a plant's environment. This data will be fed into an RNBO patch to sonfiy it's features and characteristics. This RNBO patch will be exported to JavaScript and a new user interface will be built using the p5.js library.
 
 ## Monday 6th February
 
